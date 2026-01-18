@@ -37,7 +37,6 @@ chrome.storage.local.get(
   }
 );
 
-// Update state when toggled
 [web, date, ai].forEach(checkbox => {
   checkbox.addEventListener('change', () => {
     chrome.storage.local.set({
@@ -52,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelectorAll("a");
   links.forEach(link => {
     link.addEventListener('click', (event) => {
-      event.preventDefault(); // Prevent the default link behavior
+      event.preventDefault();
       const location = link.getAttribute('href');
       chrome.tabs.update({active: true, url: location});
     });
