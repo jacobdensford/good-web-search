@@ -17,8 +17,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:firefox": "web-ext run --source-dir ./extension/"
-  },
-  "devDependencies": {
-    "web-ext": "^10.4.0"
   }
 }
