@@ -3,7 +3,7 @@
         await chrome.storage.local.get(['webEnabled', 'dateEnabled', 'aiEnabled']);
 
     const webMode = webEnabled === true;
-    const before  = dateEnabled === true;
+    const before = dateEnabled === true;
     const noAI = aiEnabled === true;
 
     const url = new URL(location.href);
@@ -42,6 +42,11 @@
                 location.replace(newUrl.toString());
                 return;
             }
+        }
+    } else if (url.hostname.includes('duckduckgo')) {
+        if (noAI) {
+            newUrl.hostname = "noai.duckduckgo.com";
+            changed = true;
         }
     } else {
         finalQ += `${noAI ? ' -ai' : ''}`;
