@@ -5,7 +5,7 @@
   "description": "Adjusts search parameters for better results",
   "permissions": ["storage", "tabs"],
   "background": {
-    "service_scripts": "background.js",
+    "service_worker": "background.js",
     "scripts": ["background.js"]
   },
   "icons": {
