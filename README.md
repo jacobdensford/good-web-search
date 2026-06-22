@@ -2,7 +2,7 @@
 
 # Good Web Search
 
-Good Web Search is an extension for Chromium-based browsers that automatically adjusts search parameters for better results. It currently works for Google, with some features working for [Ecosia](https://www.ecosia.org/), [StartPage](https://www.startpage.com), [DuckDuckGo](https://duckduckgo.com), Brave, and Bing.
+Good Web Search is an extension for Firefox and Chromium-based browsers that automatically adjusts search parameters for better results. It currently works for Google, with some features working for [Ecosia](https://www.ecosia.org/), [StartPage](https://www.startpage.com), [DuckDuckGo](https://duckduckgo.com), Brave, and Bing.
 
 ## Installation
 
@@ -30,3 +30,7 @@ Click extension icon and toggle checkboxes to turn features off and on. Disabled
 
 - [ ] Refactor code (following [the API](https://developer.chrome.com/docs/extensions/reference/api))
 
+## Development
+
+- **To test Firefox version:** `npm run start:firefox`
+- **To build Firefox version:** `npm run build:firefox`
