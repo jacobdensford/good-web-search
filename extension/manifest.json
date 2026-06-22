@@ -5,7 +5,8 @@
   "description": "Adjusts search parameters for better results",
   "permissions": ["storage", "tabs"],
   "background": {
-    "service_worker": "background.js"
+    "service_scripts": "background.js",
+    "scripts": ["background.js"]
   },
   "icons": {
       "16": "icon16.png",
@@ -34,5 +35,13 @@
       "js": ["content.js"],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "good-web-search@good.web",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
 }
