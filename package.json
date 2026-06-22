@@ -17,6 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:firefox": "web-ext run --source-dir ./extension/",
-    "build:firefox": "web-ext build --source-dir ./extension/ --artifacts-dir ./releases/firefox/ --filename good-web-search-v{version}.zip"
+    "build:firefox": "web-ext build --source-dir ./extension/ --artifacts-dir ./releases/firefox/ --filename good-web-search-v{version}.zip --overwrite-dest"
   }
 }
