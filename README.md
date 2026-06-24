@@ -4,7 +4,7 @@
 
 *Search the good web again.*
 
-Good Web Search is a extension for Firefox and Chromium-based browsers with the goal of automatically adjusting search parameters to surface more useful results and making search engine behave more like they use to in the "good ol' days" of the web by reducing AI-generated clutter and enabling hidden search options. 
+Good Web Search is an extension for Firefox and Chromium-based browsers that automatically adjusts search parameters to surface more useful results and makes search engines behave more like they used to in the "good ol' days" of the web by reducing AI-generated clutter and enabling hidden search options. 
 
 ## Details
 
