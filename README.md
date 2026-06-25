@@ -34,7 +34,7 @@ Good Web Search is currently (2026-06-22) tested and working with:
 
 ### Installation
 
-1. Download [latest release](https://github.com/cobbland/good-web-search/releases/latest) from GitHub (`.zip` for Firefox or `.crx` for Chrome)
+1. Download [latest release](https://github.com/cobbland/good-web-search/releases/latest) from GitHub (`.zip` for Firefox or `.crx` for Chrome) or from [Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/good-web-search/)
 2. Open web browser and navigate to extension page
 3. Enable “Developer mode” if required
 4. Drag and drop extension file onto page
